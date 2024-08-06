@@ -1,0 +1,92 @@
+.btn {
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    &.primary {
+        background: var(--primary-color);
+        color: white;
+    }
+    &.secondary {
+        background: var(--secondary-color);
+        color: white;
+    }
+    &.outline {
+        border: 1px solid black;
+        color: black;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-md {
+    font-size: 1.2rem;
+}
+
+.text-lg {
+    font-size: 1.44rem;
+}
+
+.text-lg {
+    font-size: 1.728rem;
+}
+
+.text-xl {
+    font-size: 2.074rem;
+}
+
+.text-2xl {
+    font-size: 2.488rem;
+}
+
+.text-2xl {
+    font-size: 2.986rem;
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-primary {
+    background: var(--primary-color);
+}
+
+.bg-secondary {
+    background: rgb(45, 43, 82);
+    color: white;
+    border-radius: 5px;
+}
+
+.body-bg {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.blue {
+    color: rgb(57, 57, 169);
+}
+
+.grey {
+    color: grey;
+}
+
+.bg-blue {
+    background-color: rgb(70, 70, 182);
+}
+
+.white {
+    color: white;
+}

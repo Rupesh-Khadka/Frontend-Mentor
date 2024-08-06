@@ -1,0 +1,23 @@
+:root {
+    --primary-color: coral;
+    --secondary-color: rgba(0, 0, 0, 0.7);
+    /* typography */
+    /* --font-family: "Poppins","sans-serif", */
+    /* spacings */
+    --xs: 4px;
+    --sm: 8px;
+    --md: 16px;
+    --lg: 24px;
+    --xl: 32px;
+    --xxl: 40px;
+    --xxxl: 48px;
+    --2xl: 40px;
+    --3xl: 48px;
+    --wrapper: 12vw;
+    /* fontsizes */
+    --font-xs: 4px;
+    --font-sm: 8px;
+    --font-base: 16px;
+    --font-md: 24px;
+    --font-lg: 32px;
+}

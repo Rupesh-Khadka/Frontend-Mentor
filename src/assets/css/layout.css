@@ -1,0 +1,494 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 249, 241);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.h-half {
+    height: 50%;
+}
+
+.window-height {
+    height: 100vh;
+}
+
+.window-width {
+    height: 100vh;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top-none {
+    top: 0;
+}
+
+.left-none {
+    left: 0;
+}
+
+.bottom-none {
+    bottom: 0;
+}
+
+.right-none {
+    right: 0;
+}
+
+.list-none {
+    list-style: none;
+}
+
+
+/* spacings */
+
+.p-xs {
+    padding: var(--xs);
+}
+
+.p-sm {
+    padding: var(--sm);
+}
+
+.p-md {
+    padding: var(--md);
+}
+
+.p-lg {
+    padding: var(--lg);
+}
+
+.p-xl {
+    padding: var(--xl);
+}
+
+.p-2xl {
+    padding: var(--2x);
+}
+
+.p-3xl {
+    padding: var(--3x);
+}
+
+.px-xs {
+    padding-left: var(--xs);
+    padding-right: var(--xs);
+}
+
+.px-sm {
+    padding-left: var(--sm);
+    padding-right: var(--sm);
+}
+
+.px-md {
+    padding-left: var(--md);
+    padding-right: var(--md);
+}
+
+.px-lg {
+    padding-left: var(--lg);
+    padding-right: var(--lg);
+}
+
+.px-xl {
+    padding-left: var(--xl);
+    padding-right: var(--xl);
+}
+
+.px-2xl {
+    padding-left: var(--2x);
+    padding-right: var(--2x);
+}
+
+.px-3xl {
+    padding-left: var(--3x);
+    padding-right: var(--3x);
+}
+
+.px-wrapper {
+    padding-left: var(--wrapper);
+    padding-right: var(--wrapper);
+}
+
+.py-xs {
+    padding-top: var(--xs);
+    padding-bottom: var(--xs);
+}
+
+.py-sm {
+    padding-top: var(--sm);
+    padding-bottom: var(--sm);
+}
+
+.py-md {
+    padding-top: var(--md);
+    padding-bottom: var(--md);
+}
+
+.py-lg {
+    padding-top: var(--lg);
+    padding-bottom: var(--lg);
+}
+
+.py-xl {
+    padding-top: var(--xl);
+    padding-bottom: var(--xl);
+}
+
+.py-2xl {
+    padding-top: var(--2x);
+    padding-bottom: var(--2x);
+}
+
+.py-3xl {
+    padding-top: var(--3x);
+    padding-bottom: var(--3x);
+}
+
+.m-xs {
+    margin: var(--xs);
+}
+
+.m-sm {
+    margin: var(--sm);
+}
+
+.m-md {
+    margin: var(--md);
+}
+
+.m-lg {
+    margin: var(--lg);
+}
+
+.m-xl {
+    margin: var(--xl);
+}
+
+.m-2xl {
+    margin: var(--2x);
+}
+
+.m-3xl {
+    margin: var(--3x);
+}
+
+.mx-xs {
+    margin-left: var(--xs);
+    margin-right: var(--xs);
+}
+
+.mx-sm {
+    margin-left: var(--sm);
+    margin-right: var(--sm);
+}
+
+.mx-md {
+    margin-left: var(--md);
+    margin-right: var(--md);
+}
+
+.mx-lg {
+    margin-left: var(--lg);
+    margin-right: var(--lg);
+}
+
+.mx-xl {
+    margin-left: var(--xl);
+    margin-right: var(--xl);
+}
+
+.mx-2xl {
+    margin-left: var(--2x);
+    margin-right: var(--2x);
+}
+
+.mx-3xl {
+    margin-left: var(--3x);
+    margin-right: var(--3x);
+}
+
+.my-xs {
+    margin-top: var(--xs);
+    margin-bottom: var(--xs);
+}
+
+.my-sm {
+    margin-top: var(--sm);
+    margin-bottom: var(--sm);
+}
+
+.my-md {
+    margin-top: var(--md);
+    margin-bottom: var(--md);
+}
+
+.my-lg {
+    margin-top: var(--lg);
+    margin-bottom: var(--lg);
+}
+
+.my-xl {
+    margin-top: var(--xl);
+    margin-bottom: var(--xl);
+}
+
+.my-2xl {
+    margin-top: var(--2x);
+    margin-bottom: var(--2x);
+}
+
+.my-3xl {
+    margin-top: var(--3x);
+    margin-bottom: var(--3x);
+}
+
+.wd {
+    max-width: 35%;
+}
+
+.wm {
+    width: 36vw;
+}
+
+.wz {
+    width: 48vw;
+}
+
+.hm {
+    height: 35vh;
+}
+
+.wx {
+    width: 25vw;
+}
+
+.hx {
+    height: 40vh;
+}
+
+.hh {
+    height: 44vh;
+}
+
+.p {
+    padding-top: 5%;
+}
+
+.border-radius {
+    border-radius: 20px;
+    border: none;
+}
+
+.fs {
+    border: none;
+}
+
+.fq {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    padding: 18px;
+    border: none;
+    width: 42vw;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    .btn-fq {
+        border: none;
+        background-color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.bg-black {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    padding: 2px 8px;
+    width: 14vw;
+    text-align: center;
+}
+
+.bg-red {
+    background-color: rgb(244, 49, 49);
+    text-align: center;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    width: 16vw;
+}
+
+.m-m {
+    margin-top: 32px;
+}
+
+.bg-grey {
+    background-color: rgb(247, 242, 235);
+}
+
+.btn-blue {
+    font-size: 28px;
+    border: none;
+    background-color: rgb(82, 82, 230);
+    border-radius: 50%;
+    margin: 4px;
+    padding: 20px;
+    color: white;
+}
+
+.pt {
+    padding-top: 32px;
+}
+
+.learn {
+    background-color: rgb(241, 121, 121);
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    padding: 16px;
+}
+
+.two {
+    width: 100%;
+    height: 100%;
+}
+
+.pic-radius {
+    border-radius: 50%;
+    width: 40%;
+    height: 90%;
+    margin: 0px 75px;
+}
+
+.frst {
+    background-color: rgb(20, 20, 85);
+    color: white;
+}
+
+.w-h {
+    width: 80%;
+}
+
+.h-w {
+    height: 35%;
+}
+
+.w-sev {
+    width: 70%;
+}
+
+.w-six {
+    width: 60%;
+}
+
+.w-for {
+    width: 40%;
+}
+
+.h-for {
+    height: 40%;
+}
+
+.w-thirty {
+    width: 30%;
+}
+
+.w-twentyfive {
+    width: 25%;
+}
+
+.w-twenty {
+    width: 22%;
+}
+
+.border-radius {
+    border-radius: 12px;
+}
+
+.border-both {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    width: 100%;
+    margin: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.border {
+    border: 1px solid grey;
+}
+
+.bdr-radius {
+    border-radius: 12px 12px 0 0;
+}
+
+.h-h {
+    height: 54vh;
+}
